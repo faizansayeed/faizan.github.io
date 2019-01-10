@@ -85,30 +85,6 @@
     color: #2b55ff;
 }
 
-#myFooter .fa-google-plus:hover {
-    color: red;
-}
-
-#myFooter .fa-google-plus:focus {
-    color: red;
-}
-
-#myFooter .fa-twitter:hover {
-    color: #00aced;
-}
-
-#myFooter .fa-twitter:focus {
-    color: #00aced;
-}
-
-@media screen and (max-width: 767px) {
-    #myFooter {
-        text-align: center;
-    }
-    #myFooter .row {
-        margin: 0;
-    }
-}
 
 
 
