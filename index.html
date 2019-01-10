@@ -6,10 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="Footer-with-map.css">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <body>
 
 <!-- navbar -->
@@ -30,6 +33,7 @@
       <a class="nav-item nav-link" href="outreach.html">Outreach</a>
       <a class="nav-item nav-link" href="school.html">School</a>
 	  <a class="nav-item nav-link" href="calendar.html">Calendar</a>
+ 	  <button type="button" class="btn btn-success" style="margin-left:30px">Donate</button>   
     </div>
   </div>
 </nav>
@@ -65,7 +69,7 @@
   <div class="card">
     <div class="card-header" id="headingOne">
       <h5 class="mb-0">
-        <button class="btn btn-light" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button class="btn btn-light" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="color: black">
          <b>Juma & Prayer Times</b> <img src="svg/si-glyph-arrow-down.svg" style="width:30px;height:15px"/>	
         </button>
       </h5>
@@ -129,49 +133,138 @@
   </div>
 </div>
 
-<div class="container-fluid">
-<div class="row">
 
-<div class="col-lg-3">
-<div class="jumbotron">
-  <h1 class="display-4">Visit Our Center</h1>
-  <hr class="my-4">
-  <p>ICB Wayland welcomes individuals and groups to visit our Center, and we also try our best to provide speakers or representatives for a variety of local interfaith events in Eastern Mass.</p>
-  <a class="btn btn-success btn-lg" href="#" role="button">Schedule visit</a>
-</div>
-</div>
-
-<div class="col-lg-3">
-<div class="jumbotron">
-  <h1 class="display-4">Sunday School</h1>
-  <hr class="my-4">
-  <p>We strive to develop confident and compassionate American Muslims who are inspired by the beauty of Islam and whose faith is a guide and source of strength in their daily lives.</p>
-  <a class="btn btn-success btn-lg" href="#" role="button">Learn more</a>
-</div>
-</div>
-
-<div class="col-lg-3">
-<div class="jumbotron">
-  <h1 class="display-4">Support ICB</h1>
-  <hr class="my-4">
-  <p>ICB needs your financial help to support ongoing facilities maintenance and organize educational programs. Please donate generously. </p>
-  <a class="btn btn-success btn-lg" href="#" role="button">Donate now</a>
-</div>
-</div>
-
-<div class="col-lg-3">
-<div class="jumbotron">
-  <h1 class="display-4">Book Our Facilities</h1>
-  <hr class="my-4">
-  <p>ICB facilities including the prayer hall, social hall and kitchen are available for use by members and the community at large. </p>
-  <a class="btn btn-success btn-lg" href="#" role="button">Book now</a>
-</div>
-</div>
-
-</div>
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="mosqueFall.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Visit ICB or request speaker</h5>
+      <p class="card-text">ICB Wayland welcomes individuals and groups to visit our Center, and we also try our best to provide speakers or representatives for a variety of local interfaith events in Eastern Mass.</p>
+        </div>
+        <div class="card-footer">
+ 		<button type="button" class="btn btn-success">Learn More</button>   
+    </div>	
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="school.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Sunday school</h5>
+      <p class="card-text">We strive to develop confident and compassionate American Muslims who are inspired by the beauty of Islam and whose faith is a guide and source of strength in their daily lives. </p>
+    </div>
+    <div class="card-footer">
+ 			<button type="button" class="btn btn-success">Learn More</button>   
+    	</div>	
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="icbprayerhall.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Support our center</h5>
+      <p class="card-text">ICB needs your financial help to support ongoing facilities maintenance and organize educational programs. Please donate generously.</p>	
+        </div>
+        <div class="card-footer">
+ 		<button type="button" class="btn btn-success">Donate</button>   
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="icbhall.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Book facilities</h5>
+      <p class="card-text">ICB facilities including the prayer hall, social hall and kitchen are available for use by members and the community at large. </p>
+    </div>
+     	 <div class="card-footer">
+ 		<button type="button" class="btn btn-success">Online Booking</button>   
+    </div>	
+  </div>
 </div>
 
 <h1> Upcoming at ICB </h1>
 
+<div class="table-responsive">
+  <table class="table">
+  	<tr>
+  		<td> 
+  			<div class="card" style="width: 18rem;">
+  			<div class="card-body">
+  				  <h5 class="card-title">Sample Event</h5>
+   				 <h6 class="card-subtitle mb-2 text-muted">01/01/19</h6>
+   				 <p class="card-text">Some quick example text to build on the event title and make up the bulk of the card's content. Can add image of event flyer if needed.</p>
+  			</div>
+			</div>		
+  		</td>
+  		<td> 
+  			<div class="card" style="width: 18rem;">
+  			<div class="card-body">
+  				  <h5 class="card-title">Sample Event</h5>
+   				 <h6 class="card-subtitle mb-2 text-muted">01/01/19</h6>
+   				 <p class="card-text">Some quick example text to build on the event title and make up the bulk of the card's content. Can add image of event flyer if needed.</p>
+  			</div>
+			</div>		
+  		</td>
+  		<td> 
+  			<div class="card" style="width: 18rem;">
+  			<div class="card-body">
+  				  <h5 class="card-title">Sample Event</h5>
+   				 <h6 class="card-subtitle mb-2 text-muted">01/01/19</h6>
+   				 <p class="card-text">Some quick example text to build on the event title and make up the bulk of the card's content. Can add image of event flyer if needed.</p>
+  			</div>
+			</div>		
+  		</td>
+  		<td> 
+  			<div class="card" style="width: 18rem;">
+  			<div class="card-body">
+  				  <h5 class="card-title">Sample Event</h5>
+   				 <h6 class="card-subtitle mb-2 text-muted">01/01/19</h6>
+   				 <p class="card-text">Some quick example text to build on the event title and make up the bulk of the card's content. Can add image of event flyer if needed.</p>
+  			</div>
+			</div>		
+  		</td>
+  		<td> 
+  			<div class="card" style="width: 18rem;">
+  			<div class="card-body">
+  				  <h5 class="card-title">Sample Event</h5>
+   				 <h6 class="card-subtitle mb-2 text-muted">01/01/19</h6>
+   				 <p class="card-text">Some quick example text to build on the event title and make up the bulk of the card's content. Can add image of event flyer if needed.</p>
+  			</div>
+			</div>		
+  		</td>
+  	</tr>
+  </table>
+</div>
+
 </body>
+
+
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h5>Contact Information</h5>
+                    <ul>
+                        <li>Phone: +1 (508) 358 5885</li>
+                        <li>Voice Mail: +1 (774) 421 9878</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Questions</h5>
+                    <ul>
+                    	<li></li>
+                        <li>General: info@icbwayland.org</li>
+                        <li>Website: webmaster@icbwayland.org</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Here we use the Google Embed API to show Google Maps. -->
+            <!-- In order for this to work in your project you will need to generate a unique API key.  -->
+            <iframe id="map-container" frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed/v1/place?q=Islamic%20Center%20of%20Boston&key=AIzaSyDtb-2bC01Ophp4g6B9VYz08mE5e9nZ3Is">
+            </iframe>
+        </div>
+        <div class="social-networks">
+            <a href="https://www.facebook.com/icbwayland/" class="facebook"><i class="fa fa-facebook"></i></a>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2018 Faizan Sayeed </p>
+        </div>
+    </footer>
+    
 </html>

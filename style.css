@@ -1,15 +1,18 @@
-button {
-	color: black !important;
-	}
-	
+
 button:hover {
 	text-decoration:none !important;
 }
 
-.jumbotron {
-  margin-top: 50px !important;
+.card-deck {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  margin-right: 10px !important;
+  margin-left: 10px !important;
 }
 
 h1 {
 	text-align: center;
+	margin-bottom: 30px !important;
 }
+
+
