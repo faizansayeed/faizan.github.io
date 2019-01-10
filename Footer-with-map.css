@@ -85,6 +85,14 @@
     color: #2b55ff;
 }
 
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+    #myFooter .row {
+        margin: 0;
+    }
+}
 
 
 
