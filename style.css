@@ -1,0 +1,11 @@
+button {
+	color: black !important;
+	}
+	
+button:hover {
+	text-decoration:none !important;
+}
+
+.jumbotron {
+  margin-top: 50px !important;
+}
